@@ -6,9 +6,9 @@ I decided to try out elm, this is where I keep my tutorial projects and notes
 
 ## Installing elm
 
-Note: I am using Pop!_OS & Windows 10 - similar to ubuntu
+Note: I am using Pop!_OS (similar to ubuntu) & Windows 10
 
-The first thing to install is node, however I found that along the way I have problems related to permissions with the node_modules directory.
+The first thing to install is node, however I found along the way that I have problems related to permissions with the node_modules directory when using Pop!_OS.
 Node.js manuals suggested installing with nvm (Node Version Manager) so go to https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally#manually-change-npms-default-directory
 To read more.
 
