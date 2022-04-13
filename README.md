@@ -89,12 +89,14 @@ The elm.json is the program depndecies file. you create the file by running elm 
 
 Compile the Test.elm using:
 
-elm make src/Test.elm --output elm.js
+elm make src/Test.elm --output program.js
 
 You should see something like this
 Success!
 
-    Test ---> elm.js
+    Test ---> program.js
+
+Note: trying to call the output file elm.js will create odd side effect in Windows 10
 
 Now go to the index.html file in VSC, right click it and choose Open with Live Server.
 

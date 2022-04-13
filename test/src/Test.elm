@@ -12,7 +12,7 @@ view model =
             , strong [] [ text "Infoneto Ltd" ]
             , text <|
                 """ 
-                This your first elm page.
+                This the first elm page.
                 """
             ]
         ]
