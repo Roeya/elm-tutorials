@@ -13,34 +13,42 @@ To read more.
 1. Install Node Version Manager
 
 nvm for Linux:
-   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+   
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
 nvm-windows for Windows:
-   install from https://github.com/coreybutler/nvm-windows/releases
+   
+    install from https://github.com/coreybutler/nvm-windows/releases
 
 2. Install the last LTS (Long Time Support) version of node using:
    
    on linux 
-   nvm install --lts
+   
+       nvm install --lts
 
    on windows
-   nvm install lts
+   
+       nvm install lts
 
 3. Point the default node version to the latest installed version by:
    
    on linux
-   nvm alias default
+   
+       nvm alias default
 
    on windows (improtant you need to run the cmd as an Administrator)
-   nvm use lts
+   
+       nvm use lts
 
 4. Now run npm and see it is located under you home directory 
 
    on linux (yourName is your user name)
-   /home/yourName/.nvm/versions....
-
+   
+       /home/yourName/.nvm/versions....
+ 
    on windows (yourName is your user name)
-   C:\Users\yourName\AppData\Roaming\nvm
+   
+       C:\Users\yourName\AppData\Roaming\nvm
 
 5. install elm
 
@@ -55,7 +63,9 @@ nvm-windows for Windows:
 
 10. Install Live Server by Ritwick Dey
 
-11. Clone the elm-tutorials project using git clone https://github.com/Roeya/elm-tutorilas
+11. Clone the elm-tutorials project using 
+
+        git clone https://github.com/Roeya/elm-tutorilas
 
 12. open VSC in the elm-tutrials/test directory by typing code . in the terminal (Linux) or at the command (Windows)
     after changing to this directory.
