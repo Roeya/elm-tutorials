@@ -2,14 +2,14 @@
 
 # elm-tutorials
 
-I diecided to try out elm, this is where I keep my tutorial projects and notes
+I decided to try out elm, this is where I keep my tutorial projects and notes
 
 ## Installing elm
 
 Note: I am using pop os - similar to ubuntu
 
 The first thing to install is node, however I found that along the way I have problems related to permissions with the node_modules directory.
-Node.js manuals sugested installing with nvm (Node Version Manager) so go to https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally#manually-change-npms-default-directory
+Node.js manuals suggested installing with nvm (Node Version Manager) so go to https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally#manually-change-npms-default-directory
 To read more.
 
 1. Install nvm:
@@ -34,4 +34,23 @@ To read more.
 
 9. Create new directory call it test and inside it call elm init. approve the creation of the elm.json file
 
-10. goto src dir and create your test file
+10. Install Live Server by Ritwick Dey
+
+11. goto src dir and create your test file
+
+# The test project
+
+The index.html is a HTML skeleton with JavaScript to embed the elm program output.
+The Test.elm file contains the program that creates HTML output that will be embedded inside the HTML.
+Compile the Test.elm using:
+
+elm make src/Test.elm --output elm.js
+
+You should see something like this
+Success!
+
+    Test ---> elm.js
+
+Now go to the index.html file in VSC, right click it and choose Open with Live Server.
+
+If everything went OK you should see the file in the browser
