@@ -12,13 +12,13 @@ To read more.
 
 1. Install Node Version Manager
 
-nvm for Linux:
+   nvm for Linux:
    
-    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+       curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
-nvm-windows for Windows:
+   nvm-windows for Windows:
    
-    install from https://github.com/coreybutler/nvm-windows/releases
+       install from https://github.com/coreybutler/nvm-windows/releases
 
 2. Install the last LTS (Long Time Support) version of node using:
    
