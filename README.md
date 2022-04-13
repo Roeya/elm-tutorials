@@ -57,12 +57,24 @@ nvm-windows for Windows:
 
 10. Install Live Server by Ritwick Dey
 
-11. goto src dir and create your test file
+11. Clone the elm-tutorials project using git clone https://github.com/Roeya/elm-tutorilas
+
+12. open VSC in the elm-tutrials/test directory by typing code . in the terminal (Linux) or at the command (Windows)
+    after changing to this directory.
 
 # The test project
 
-The index.html is a HTML skeleton with JavaScript to embed the elm program output.
-The Test.elm file contains the program that creates HTML output that will be embedded inside the HTML.
+The test project structure
+
+   test + index.html
+        + elm.json
+        | 
+        +- src + Test.elm
+     
+The index.html is a HTML skeletoekmn with JavaScript to embed the elm program output.
+The src/Test.elm file contains the program that creates HTML output that will be embedded inside the HTML.
+The elm.json is the program depndecies file. you create the file by running elm init
+
 Compile the Test.elm using:
 
 elm make src/Test.elm --output elm.js
