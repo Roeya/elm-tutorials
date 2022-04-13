@@ -6,22 +6,43 @@ I decided to try out elm, this is where I keep my tutorial projects and notes
 
 ## Installing elm
 
-Note: I am using pop os - similar to ubuntu
+Note: I am using Pop!_OS & Windows 10 - similar to ubuntu
 
 The first thing to install is node, however I found that along the way I have problems related to permissions with the node_modules directory.
 Node.js manuals suggested installing with nvm (Node Version Manager) so go to https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally#manually-change-npms-default-directory
 To read more.
 
-1. Install nvm:
+1. Install Node Version Manager
+
+nvm for Linux:
    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
+nvm-windows for Windows:
+   install from https://github.com/coreybutler/nvm-windows/releases
+
 2. Install the last LTS (Long Time Support) version of node using:
+   
+   on linux 
    nvm install --lts
 
+   on windows
+   nvm install lts
+
 3. Point the default node version to the latest installed version by:
+   
+   on linux
    nvm alias default
 
-4. Now run npm and see it is located under you home directory /home/yourName/.nvm/versions....
+   on windows (improtant you need to run the cmd as an Administrator)
+   nvm use lts
+
+4. Now run npm and see it is located under you home directory 
+
+   on linux (yourName is your user name)
+   /home/yourName/.nvm/versions....
+
+   on windows (yourName is your user name)
+   C:\Users\yourName\AppData\Roaming\nvm
 
 5. install elm
 
