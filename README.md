@@ -66,10 +66,14 @@ nvm-windows for Windows:
 
 The test project structure
 
-      test + index.html
+      test +
+           |
+           + index.html
            + elm.json
            | 
-           +- src + Test.elm``    
+           +- src +
+                  | 
+                  + Test.elm``    
 
 The index.html is a HTML skeletoekmn with JavaScript to embed the elm program output.
 The src/Test.elm file contains the program that creates HTML output that will be embedded inside the HTML.
