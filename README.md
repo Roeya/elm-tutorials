@@ -1,5 +1,3 @@
-2022-14-04
-
 # elm-tutorials
 
 I decided to try out elm, this is where I keep my tutorial projects and notes
