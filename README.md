@@ -18,7 +18,9 @@ To read more.
 
    nvm-windows for Windows:
    
-       install from https://github.com/coreybutler/nvm-windows/releases
+   downlaod nvm from https://github.com/coreybutler/nvm-windows/releases there is an install program
+   nvm-setup.zip download it and install.
+   **Note: make sure to uninstall your current node version is it may create probelms** 
 
 2. Install the last LTS (Long Time Support) version of node using:
    
@@ -81,7 +83,7 @@ The test project structure
            | 
            +- src +
                   | 
-                  + Test.elm``    
+                  + Test.elm    
 
 The index.html is a HTML skeletoekmn with JavaScript to embed the elm program output.
 The src/Test.elm file contains the program that creates HTML output that will be embedded inside the HTML.
