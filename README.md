@@ -98,7 +98,7 @@ Success!
 
     Test ---> program.js
 
-Note: trying to call the output file elm.js will create odd side effect in Windows 10
+Note: trying to call the output file elm.js will create odd side effect in Windows 10: many times the *.js extension is linked with a program. When you use the elm command for the first time a file called elm.js is created. When the elm is used for the  second time windows finds a file named elm.js in the current directory so the as it assoicieted with the a program, the assoicieted program will run instead of the elm command. 
 
 Now go to the index.html file in VSC, right click it and choose Open with Live Server.
 
