@@ -20,7 +20,7 @@ To read more.
    
    downlaod nvm from https://github.com/coreybutler/nvm-windows/releases there is an install program
    nvm-setup.zip download it and install.
-   **Note: make sure to uninstall your current node version is it may create probelms** 
+   **Note: make sure to uninstall your current node version. an installed version may create probelms** 
 
 2. Install the last LTS (Long Time Support) version of node using:
    
